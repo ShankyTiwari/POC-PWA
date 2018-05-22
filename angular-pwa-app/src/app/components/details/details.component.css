@@ -1,0 +1,22 @@
+.character-container{
+  margin-top: 2%;
+  padding: 2%;
+  border: solid 3px #3dff00;
+}
+
+.character-name{
+  text-align: center;
+  color: #3dff00;
+}
+
+.list-detail{
+  border-bottom: solid 1px #fd7126;
+  padding: 10px;
+}
+.detail-key{
+  color: #fd7e14;
+}
+
+.detail-value{
+  color: #3dff00;
+}

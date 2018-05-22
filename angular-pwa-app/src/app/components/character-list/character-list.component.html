@@ -1,0 +1,21 @@
+<div class="character-container container" *ngIf="characters !== null">
+  <ul class="list-group">
+    <li class="list-group-item"
+      *ngFor='let character of characters; let i = index;'
+      >
+        <h3 class="heading" (click)="showDetails(i)">{{character.name}}</h3>
+        <div class="list-detail">
+          <span class="detail-key"> Gender: </span>
+          <span class="detail-value">{{character.gender}} </span>
+        </div>
+        <div class="list-detail">
+          <span class="detail-key"> Skin Color: </span>
+          <span class="detail-value">{{character.skin_color}} </span>
+        </div>
+        <div class="list-detail">
+          <span class="detail-key"> # of Starships: </span>
+          <span class="detail-value">{{character.starships.length}} </span>
+        </div>
+      </li>
+  </ul>
+</div>

@@ -1,0 +1,39 @@
+<div class="character-container container" *ngIf="details !== null">
+  <div class="character-name">
+    <h1>{{details.name}}</h1>
+  </div>
+  <div class="character-detail">
+    <div class="list-detail">
+      <span class="detail-key"> Eye color: </span>
+      <span class="detail-value"> {{ details.eye_color}} </span>
+    </div>
+    <div class="list-detail">
+      <span class="detail-key"> Number of Films: </span>
+      <span class="detail-value"> {{ details.films.length}} </span>
+    </div>
+    <div class="list-detail">
+      <span class="detail-key"> Gender: </span>
+      <span class="detail-value"> {{ details.gender}} </span>
+    </div>
+    <div class="list-detail">
+      <span class="detail-key"> Hair Color: </span>
+      <span class="detail-value">  {{ details.hair_color}} </span>
+    </div>
+    <div class="list-detail">
+      <span class="detail-key"> Mass: </span>
+      <span class="detail-value"> {{ details.mass}} </span>
+    </div>
+    <div class="list-detail">
+      <span class="detail-key"> Skin Color: </span>
+      <span class="detail-value"> {{ details.skin_color}} </span>
+    </div>
+    <div class="list-detail">
+      <span class="detail-key"> Number of Starships: </span>
+      <span class="detail-value"> {{ details.starships.length}} </span>
+    </div>
+    <div class="list-detail">
+      <span class="detail-key"> Number of Vehicles: </span>
+      <span class="detail-value"> {{ details.vehicles.length}} </span>
+    </div>
+  </div>
+</div>
