@@ -48,18 +48,10 @@ Read more about [Progressive web application](https://developers.google.com/web/
 4. There is no download store. This point may be deemed as both advantage and disadvantage. Since the PWAs are the web pages, they do not require any installation from any app store. The app stores are very convenient repositories, which help users search applications. For this reason, some difficulties might occur with the search of the PWAs and proving their legitimacy.
 5. The PWAs do not support cross application logins. Unlike many applications, requiring an individual login, the PWAs can not collect this data independently.
 
-## Build
+## Progressive web application development
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+It is recommended to develop a PWA application using Angular, React or Vuejs. All the hardwork such setting up the `service worker` and creating `manifest.json` will handleded alreday.
 
-## Running unit tests
+## Progressive web application Testing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To  test the application's PWA score, you can use [Lighthouse](https://developers.google.com/web/tools/lighthouse/).
