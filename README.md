@@ -22,6 +22,18 @@ Also,
 This new level of quality allows Progressive Web Apps to earn a place on the user's home screen.
 Read more about [Progressive web application](https://developers.google.com/web/progressive-web-apps/).
 
+## How Progressive web application works ([Service worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker))
+
+To understand the working of Progressive web application, [read this guide](https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures).
+To understand how service worker works inside and the browser and how your application works offline, [read this guide](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker).
+
+## Progressive web application Requirements: HTTPS, Service Workers, and Web App Manifest
+
+The requirements for a PWA can be quickly added to almost any web application. All you need to do is the following:
+1. Deploy it to a public web server and force HTTPS.
+2. Create and include a JavaScript file with code to cache network requests.
+3. Create and include a web app manifest.
+
 ## Pros and Cons of Progressive web application
 
 ### Pros
