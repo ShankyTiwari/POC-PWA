@@ -25,6 +25,7 @@ Read more about [Progressive web application](https://developers.google.com/web/
 ## How Progressive web application works ([Service worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker))
 
 To understand the working of Progressive web application, [read this guide](https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures).
+
 To understand how service worker works inside and the browser and how your application works offline, [read this guide](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker).
 
 ## Progressive web application Requirements: HTTPS, Service Workers, and Web App Manifest
