@@ -50,7 +50,7 @@ Read more about [Progressive web application](https://developers.google.com/web/
 
 ## Progressive web application development
 
-It is recommended to develop a PWA application using Angular, React or Vuejs. All the hardwork such setting up the `service worker` and creating `manifest.json` will handleded alreday.
+It is recommended to develop a PWA application using [Angular](https://angular.io/), [React](https://reactjs.org/) or [Vuejs](https://vuejs.org/). All the hardwork such setting up the `service worker` and creating `manifest.json` will handleded alreday.
 
 ## Progressive web application Testing
 
