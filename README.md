@@ -1,4 +1,4 @@
-# POC for Progressive web application (Testing)
+# POC for Progressive web application
 
 ## What is Progressive web application
 
